@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jiya Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Jiya Gupta</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	        
+			  <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+<section id="home-section" class="hero">
+  <div class="home-slider owl-carousel">
+    <div class="slider-item">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row d-md-flex no-gutters align-items-center justify-content-between" data-scrollax-parent="true">
+
+ <div class="one-forth col-md-6 d-flex align-items-center ftco-animate slider-text" data-scrollax=" properties: { translateY: '70%' }">
+  <div class="text">
+
+    <!-- Image aligned to the left -->
+    <div class="img-about img d-flex justify-content-start mb-1">
+      <img src="images/about-me.png" class="img-fluid rounded-circle b-shadow-a" alt="" style="width: 200px;">
+    </div>
+
+    <!-- Text below the image -->
+    <span class="subheading">Hello!</span>
+    <h1 class="mb-4 mt-3">I'm <span>Jiya Gupta</span></h1>
+    <a href="https://github.com/Jiya873" class="btn btn-white btn-outline-white py-3 px-4">My works</a>
+
+  </div>
+</div>
+
+          <!-- Right column: About Me block -->
+          <div class="col-md-6 pl-lg-5 pb-5 ftco-animate" style="margin-top: 90px;">
+            <div class="heading-section ftco-animate">
+              <h1 class="big">About</h1>
+              <h2 class="mb-4">About Me</h2>
+              <p>
+                Hey there! I’m Jiya Gupta, a third-year undergraduate at IIT Kharagpur, currently based in Kota, Rajasthan. I’m passionate about data from exploring patterns to drawing insights. I enjoy tackling algorithmic problems to build strong problem-solving skills. I'm also eager to contribute to open-source projects and collaborate with developer communities as I grow my coding journey. I believe in learning by doing, and I'm always curious to dive deeper into the world of tech and data.
+              </p>
+              <ul class="about-info mt-4 px-md-0 px-2">
+                <li class="d-flex"><span>Education : Integrated Masters and Bachelor of Engineering</span></li>
+                <li class="d-flex"><span>Programming Languages: Python, C++, SQL, NLP, DL, ML  </span></li>
+                <li class="d-flex"><span>Tools : Microsoft Power BI, Looker &amp; Tableau</span></li>
+                <li class="d-flex"><span>Others : Adobe Photoshop, Adobe Illustrator, DaVinci Resolve</span></li>
+                <li class="d-flex"><span>Interest : Traveling, Dancing, BasketBall, Cooking</span></li>
+              </ul>
+              <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                <div class="text"> 
+                  <p><a href="https://www.linkedin.com/in/jiya-gupta-251744283/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- End of row -->
+      </div> <!-- End of container -->
+    </div> <!-- End of slider-item -->
+  </div> <!-- End of home-slider -->
+</section>
+
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+          </div>
+        </div>
+
+		<div class="row">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Jan’25-May’25</span>
+						<h2>Natural Language Preprocessing Intern</h2>
+						<span class="position">IIM Bangalore</span>
+						<p class="mt-4">Automated end-to-end workflow from multilingual review extraction to deep learning-based sentiment modeling improving user insight 
+ 
+							<ul>
+								<li>Scraped approx 900K reviews from gaming apps (iOS & Android) using tools like BeautifulSoup, app-store-scraper, and google-play-scraper </li>
+								<li>Performed preprocessing including lemmatization, classification using transformer models like RoBERTa and custom RNN-based models</li>
+								<li>Developed an aspect-based sentiment analysis pipeline leveraging multi-task learning MvP model and DeBERTa-pair-large, LLMs</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Feb’25-Mar'25</span>
+						<h2>General Championship Data Analytics 2025</h2>
+						<span class="position">IIT Kharagpur</span>
+						<p class="mt-4">Leveraged data analytics to derive actionable insights for optimizing marketing efficiency, customer targeting, and revenue forecasting 
+ 
+							<ul>
+								<li>Collaborated with a 25-member team to integrate and analyze multi-source datasets, identifying KPIs that significantly influenced GMV</li>
+								<li>Built robust time-series forecasting models for GMV prediction, incorporating external factors like weather and holidays for accuracy</li>
+								<li>Developed interactive dashboards using Power BI showcasing customer behavior, product trends, pricing strategies, and sales patterns</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+			<br>
+					<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Sept 24-Oct'24</span>
+						<h2>Data Analytics Open IIT 2024 </h2>
+						<span class="position">IIT Kharagpur</span>
+						<p class="mt-4">Participated in a campus-wide analytics hackathon focused on flight delay prediction and optimization using real-world aviation data
+ 
+							<ul>
+								<li>Analyzed over 3 years airline operational data focusing on delayed flights and model training, enabled precise model led to MAE reduction</li>
+								<li>Discovered a commendable test with MAE of 21.1173 minutes by performing Flight Record Encoding on the features to optimize model </li>
+								<li>Utilized Genetic Algorithms to optimize and reschedule the flight schedule based on predicted delays, reducing delay time by 98.76% </li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">July 24 - Sep'24</span>
+						<h2>Customer Churn Prediction</h2>
+						<span class="position">Self Project</span>
+						<p class="mt-4">Developed a deep learning-based churn prediction system to support marketing and product teams in customer retention efforts  
+							<ul>
+								<li>Developed a deep learning-based churn prediction system to support marketing and product teams in customer retention efforts </li>
+								<li>Designed and trained a deep learning model with a hidden layer of 20 neurons using ReLU, and output layer with sigmoid activation </li>
+								<li>Achieved 78% accuracy in predicting customer churn, providing actionable insights for retention strategies and business decision-making </li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2022 - Present</span>
+    					<h2>Integrated B.Tech+M.Tech </h2>
+    					<span class="position">Indian Institute of Technology, Kharagpur </span>
+    					<p class="mt-4">CGPA/Marks : 8.62</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2022</span>
+    					<h2>Senior Secondary School</h2>
+    					<span class="position">Bhuvnesh Bal Vidyalaya, Kota, Rajasthan</span>
+    					<p class="mt-4">CGPA/Marks : 93.2%  </p>
+    				</div>
+				</div>
+    		</div>
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="https://drive.google.com/uc?export=download&id=14_iWnjXMKwLu3E4oqPLO3_9NW0VfW-m-" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+   
+
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/Jiya873/NLP_Project" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/Jiya873/NLP_Project">NLP Intern at Indian Institutes of Management Bangalore </a></h3>
+                <p>Automated end-to-end workflow from multilingual review extraction to deep learning-based sentiment modeling improving user insight </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://docs.google.com/document/d/1Ov_Yw_HGm8HnObupUcIhWGJNSoicf6GU/edit?usp=sharing&ouid=102361545611045351484&rtpof=true&sd=true" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://drive.google.com/file/d/1EL_XOHStsV5nklfeZsXpWiJqAaQ2rYq8/view?usp=sharing">Research Intern at MultiSpectra Consultants</a></h3>
+                <p>Conducted an in-depth literature review and preparing a research paper on saltwater intrusion in coastal aquifers</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="https://drive.google.com/file/d/1pMP2e1eBXSBQM_8mj3arkxeP0YLc_xOi/view?usp=sharing" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://drive.google.com/file/d/1pMP2e1eBXSBQM_8mj3arkxeP0YLc_xOi/view?usp=sharing">General Championship Data Analytics 2025</a></h3>
+                <p>Leveraged data analytics to derive actionable insights for optimizing marketing efficiency, customer targeting, and revenue forecasting </p>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Jiya873/Flight-Delay-Prediction-and-Rescheduling" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Jiya873/Flight-Delay-Prediction-and-Rescheduling">Flight Rescheduling</a></h3>
+				  <p>Used multiple machine learning models to minimizing delays, improving turnaround times, and boosting overall performance</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Jiya873/Churn-Prediction" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Jiya873/Churn-Prediction">Customer Churn Prediction model</a></h3>
+				  <p>Developed a ML model using artificial neural network which measures how and why are customers leaving the business</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Jiya873/Churn-Prediction" class="block-20 zoom-effect" style="background-image: url('images/proj_6.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Jiya873/Churn-Prediction">Ecommerce Product Catalog</a></h3>
+				  <p>Developed an interactive eCommerce platform that allows users to browse, search, and purchase products seamlessly</p>
+				</div>
+			  </div>
+			</div>
+		 </div>
+		 <br>
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Jiya873/Titanic_Survival_Prediction" class="block-20 zoom-effect" style="background-image: url('images/proj_7.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Jiya873/Titanic_Survival_Prediction">Titanic Survival Prediction</a></h3>
+				  <p> Developed an ML model capable of predicting the survival status of Titanic passengers based on available data</p>
+				</div>
+			  </div>
+			</div><div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Jiya873/Face-Mask-Detection" class="block-20 zoom-effect" style="background-image: url('images/proj_11.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Jiya873/Face-Mask-Detection">Face Mask Detection</a></h3>
+				  <p>Method which detects the face from the image correctly and then identifies if it has a mask on it or not</p>
+				</div>
+			  </div>
+			</div>
+
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Jiya873/Breast-Cancer-Classification" class="block-20 zoom-effect" style="background-image: url('images/proj_9.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Jiya873/Breast-Cancer-Classification">Breast Cancer Classification</a></h3>
+				  <p>Breast cancer is a dangerous disease for women. Created an ML model to classify malignant and benign tumor</p>
+				</div>
+			  </div>
+			</div>
+		 </div>
+		 <br>
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Jiya873/MNIST-Handwritten-Digit-Clasification" class="block-20 zoom-effect" style="background-image: url('images/proj_10.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Jiya873/MNIST-Handwritten-Digit-Clasification">MNIST Handwritten Digit Clasification</a></h3>
+				  <p>Implementation of a neural network for classifying handwritten digits from the MNIST dataset using TensorFlow and Keras</p>
+				</div>
+			  </div>
+			</div>
+						<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Jiya873/Fruits-and-Vegetables-Recognition-System" class="block-20 zoom-effect" style="background-image: url('images/proj_8.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Jiya873/Fruits-and-Vegetables-Recognition-System">Fruits and Vegetables Recognition System</a></h3>
+				  <p>Developed a model through a deep learning method for identification or classification of fruits and vegetables</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Jiya873/-Dog-vs-Cat-Classification-using-Transfer-Learning" class="block-20 zoom-effect" style="background-image: url('images/proj_12.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Jiya873/-Dog-vs-Cat-Classification-using-Transfer-Learning">Dog vs Cat Classification using Transfer Learning</a></h3>
+				  <p>Implementation of binary classification with Dog and Cat images using VGG16 architecture and Transfer Learning techniques</p>
+				</div>
+			  </div>
+			</div>
+		 </div>
+	  </div>
+
+	  </div>
+	  
+    </section>
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+      <div class="container">
+		<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+          </div>
+        </div>
+      </div>
+	
+	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+			<!-- <div class="container"> -->
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>More projects on<span> Github  </span> </h2>
+						<div class="heading"> <h4> The true power of data lies in its ability to be transformed into actionable intelligence through analytics </h4>
+						<br>
+						<p><a href="https://github.com/Jiya873" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+		</div>
+	</section>
+
+ </section>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
